@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import { ArrowRight, Star, Truck, Clock } from 'lucide-react'
+import { ArrowRight, Truck, Clock } from 'lucide-react'
 
 export default function HeroSection() {
   return (
@@ -15,17 +15,6 @@ export default function HeroSection() {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           {/* Left Content */}
           <div className="text-center lg:text-left">
-            <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ duration: 0.5 }}
-            >
-              <div className="inline-flex items-center gap-2 bg-brand-100 text-brand-600 px-4 py-2 rounded-full text-sm font-semibold mb-6">
-                <Star size={14} className="fill-brand-500" />
-                #1 Food Delivery in Pakistan
-              </div>
-            </motion.div>
-
             <motion.h1
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
