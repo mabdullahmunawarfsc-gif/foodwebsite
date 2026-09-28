@@ -1,0 +1,42 @@
+export const testimonials = [
+  {
+    id: 1,
+    name: 'Ahmed Khan',
+    location: 'Lahore',
+    rating: 5,
+    text: 'Best pizza in town! The crust is always crispy and the cheese is perfectly melted. Delivery is super fast too. Highly recommended!',
+    avatar: 'https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=100&q=80',
+  },
+  {
+    id: 2,
+    name: 'Sara Malik',
+    location: 'Karachi',
+    rating: 5,
+    text: 'Ordered the Family Feast Deal for a gathering and everyone loved it. Great value for money and the food was still hot when it arrived.',
+    avatar: 'https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&q=80',
+  },
+  {
+    id: 3,
+    name: 'Usman Tariq',
+    location: 'Islamabad',
+    rating: 4,
+    text: 'The Zinger Burger is amazing! Spicy, juicy, and always fresh. My go-to order every Friday. The app is really easy to use too.',
+    avatar: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=100&q=80',
+  },
+  {
+    id: 4,
+    name: 'Fatima Noor',
+    location: 'Faisalabad',
+    rating: 5,
+    text: 'Love the variety on the menu! From pasta to shawarma, everything tastes authentic. The packaging is also very neat and eco-friendly.',
+    avatar: 'https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=100&q=80',
+  },
+  {
+    id: 5,
+    name: 'Bilal Ahmed',
+    location: 'Rawalpindi',
+    rating: 5,
+    text: 'Been ordering from FoodHub for 6 months now. Consistent quality, generous portions, and always on time. The loaded fries are a must-try!',
+    avatar: 'https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=100&q=80',
+  },
+]
