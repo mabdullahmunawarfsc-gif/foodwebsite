@@ -4,7 +4,7 @@ import { ArrowRight, Star, Truck, Clock } from 'lucide-react'
 
 export default function HeroSection() {
   return (
-    <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-gradient-to-br from-cream via-white to-brand-50">
+    <section className="relative min-h-[90vh] flex items-center overflow-hidden bg-gradient-to-br from-cream via-white to-brand-50 pt-28 md:pt-36">
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-5">
         <div className="absolute top-20 left-10 h-72 w-72 bg-brand-500 rounded-full blur-3xl" />
