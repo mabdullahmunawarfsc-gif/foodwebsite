@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion'
 import { Link } from 'react-router-dom'
-import { ArrowRight, Truck, Clock } from 'lucide-react'
+import { ArrowRight, Star, Truck, Clock } from 'lucide-react'
 
 export default function HeroSection() {
   return (
